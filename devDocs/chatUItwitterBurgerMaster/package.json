@@ -1,0 +1,25 @@
+{
+  "name": "piccadillywall",
+  "version": "0.0.0",
+  "private": true,
+  "author": "williamsrite <wmsrite@gmail.com>",
+  "description": "A Twitter bot for finding food in Manchester City Centre",
+  "dependencies": {
+    "hubot": "^2.11.1",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-maps": "0.0.1",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-twitter": "williamsritehubot-twitter",
+    "underscore": "1.7.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+  "start": "PORT=$OPENSHIFT_NODEJS_PORT BIND_ADDRESS=$OPENSHIFT_NODEJS_IP HEROKU_URL=$OPENSHIFT_APP_DNS REDIS_URL=redis://:$REDIS_PASSWORD@$OPENSHIFT_REDIS_HOST:$OPENSHIFT_REDIS_PORT bin/hubot bin/hubot -a twitter -n piccadillywall"
+}
+}

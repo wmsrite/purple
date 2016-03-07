@@ -1,0 +1,18 @@
+{
+  "name"         : "chat-scraper",
+  "version"      : "0.0.1",
+  "description"  : "Scape and process MEN content",
+  "main"         : "server.js",
+  "author"       : "robertocarroll",
+  "private": true,
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest",
+    "comma-it"    : "latest",
+    "moment"    : "latest"
+  },
+  "repository" :{ "type" : "git"
+  , "url" : "https://github.com/wmsrite/forPurpleIo"
+  }
+}

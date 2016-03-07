@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-twitter",
+  "version": "0.0.0",
+  "private": true,
+  "author": "williamsrite <wmsrite@gmail.com>",
+  "description": "A Twitter bot for Manchester City Centre.",
+  "dependencies": {
+    "feedparser": "0.16.x",
+    "hubot": "^2.11.1",
+    "hubot-diagnostics": "0.0.1",
+    "hubot-help": "^0.1.1",
+    "hubot-heroku-keepalive": "0.0.4",
+    "hubot-maps": "0.0.1",
+    "hubot-redis-brain": "0.0.2",
+    "hubot-rules": "^0.1.0",
+    "hubot-scripts": "^2.5.16",
+    "hubot-twitter": "^2.1.1",
+    "moment": "2.8.3",
+    "request": "2.14.x",
+    "underscore": "1.7.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
